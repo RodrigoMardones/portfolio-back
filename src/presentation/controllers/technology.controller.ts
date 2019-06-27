@@ -1,5 +1,5 @@
 import { Controller, Get, Post, Body } from '@nestjs/common';
-import TechnologyService from 'src/technologies/services/technology.service';
+import TechnologyService from 'src/presentation/services/technology.service';
 import CreateTechnologyDto from '../dto/create-technology-dto'
 
 
